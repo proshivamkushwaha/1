@@ -1,0 +1,85 @@
+To Check Status
+$ git status
+
+To Add A specific Or single File
+$ git add app/controllers/posts_controller.rb
+
+To check Difference
+$ git diff
+
+To Check Status
+$ git status
+
+To Check the Branch
+$ git branch 
+* main
+
+To Create A new Branch and Swith To the new Branch
+
+$ git checkout -b feature/posts-functionality
+Switched to a new branch 'feature/posts-functionality'
+
+To Check Current Git status
+$ git status
+On branch feature/posts-functionality
+
+To Check Which Branch We use
+$ git branch 
+* feature/posts-functionality
+  main
+
+To Add Compleate Project in Staging
+$ git add .
+
+Move the current HEAD (add .)/Go Back To Staging
+$ git reset HEAD .
+Unstaged changes after reset:
+M	config/routes.rb
+
+To Commit With message
+
+$ git commit -m "Added posts CRUD functionality."
+
+To check which branch we use
+$ git branch 
+* feature/posts-functionality
+  main
+
+Too Push/Add project to new branch
+$ git push origin feature/posts-functionality
+
+To Switch or change Branch
+$ git checkout main 
+Switched to branch 'main'
+
+
+To create new branch and use/switch new branch 
+$ git checkout -b abc
+Switched to a new branch 'abc'
+
+fetch and download content from a remote repository and immediately update the local repository 
+$ git pull origin main 
+
+Switched to branch
+$ git checkout abc 
+
+List Of Branches
+$ git branch 
+* abc
+  feature/posts-functionality
+  main
+
+Merge * abc Brach To Main Branch
+$ git merge main 
+
+To Delete A Branch
+$ git branch -D abc
+Deleted branch abc (was fee8786).
+
+To Check Branch
+$ git branch 
+  feature/posts-functionality
+* main
+
+To Clone/Duplicate/Download project thrue GitHub
+$ git clone https://github.com/proshivamkushwaha/login_post.git
